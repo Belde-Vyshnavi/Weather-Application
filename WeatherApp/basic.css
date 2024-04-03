@@ -1,0 +1,128 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+#main{
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    background-color: black;
+    height: 70vh;
+    width: 60vh;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+   
+}
+
+#top{
+    height: 20vh;
+    background-image: url("https://t3.ftcdn.net/jpg/05/79/86/10/360_F_579861052_KjeAAbyaXOBY6JjxMEPBVJypp2KSb59v.jpg");
+    background-size: auto cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#bottom{
+    flex: 1;
+    display: flex;
+    
+    background: linear-gradient(90deg, rgba(231, 90, 102, 0.577) 0%, rgba(253,29,79,0.5130427170868348) 50%, rgba(252,109,69,0.6839110644257703) 100%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+
+/*
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/04/39/71/36584e58be12c25.jpg");
+    background-size: auto cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    */
+}
+.grp{
+    display: flex;
+    flex-wrap: wrap;
+}
+#btn{
+    height: 40px;
+    width:40px;
+    border-radius: 22px;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchfig{
+    height: 25px;
+    width:25px;
+}
+#searchbar{
+    display: flex;
+    align-items: center;
+   
+}
+#search{
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 200px;
+    padding-left: 10px;
+   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+#head{
+    flex: 0;
+    text-align: center;
+    color:white;
+    padding-bottom: 5px;
+}
+
+#icon{
+    height: 15vh;
+    width: 15vh;
+}
+#one{
+    flex: 0;
+}
+
+#two{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    height: 35px;
+}
+
+#three{
+    flex:2;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    padding:auto;
+    gap: 2rem;
+    margin-bottom: 20px;
+}
+
+.details{
+    margin: 21px;
+}
+
+.hidden {
+    visibility: hidden;
+}
